@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>xzanderai - Transform Your Business with AI Solutions</title>
-    <meta name="description" content="Professional AI automation solutions and custom websites by xzanderai. AI chatbots, marketing automation, lead generation, and workflow automation to grow your business.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Exo+2:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    <style>
+    <head>
+        <title>My Website</title>
+        
+        <!-- EmailJS script -->
+        <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+        <script>
+          emailjs.init("ucp2KO7Rfsz3Q6EN5");
+        </script>
+      </head>
         * {
             margin: 0;
             padding: 0;
@@ -1211,24 +1211,14 @@
             <p class="section-subtitle">Have a unique business challenge? Tell us what you need, and we'll build a custom AI solution tailored specifically for you.</p>
         </div>
         <div class="form-container">
-            <form action="https://formsubmit.co/xzanderaiagency@gmail.com" method="POST" id="customAIForm">
-                <div class="form-group">
-                    <label for="businessName">Business Name *</label>
-                    <input type="text" id="businessName" name="businessName" required>
-                </div>
-                <div class="form-group">
-                    <label for="businessType">Business Type *</label>
-                    <select id="businessType" name="businessType" required>
-                        <option value="">Select your business type</option>
-                        <option value="ecommerce">E-commerce</option>
-                        <option value="saas">SaaS</option>
-                        <option value="agency">Agency</option>
-                        <option value="consulting">Consulting</option>
-                        <option value="real-estate">Real Estate</option>
-                        <option value="healthcare">Healthcare</option>
-                        <option value="finance">Finance</option>
-                        <option value="education">Education</option>
-                        <option value="other">Other</option>
+            <form action="https://formspree.io/f/xnjgnvde" method="POST">
+                <input type="text" id="name" placeholder="Name">
+                <input type="email" id="email" placeholder="Email">
+                <textarea id="message" placeholder="Message"></textarea>
+                <button type="submit">Send</button>
+                </form>
+                
+                </script>
                     </select>
                 </div>
                 <div class="form-group">
